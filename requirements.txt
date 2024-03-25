@@ -1,0 +1,4 @@
+gTTS==2.4.0
+telebot==0.0.5
+yandexfreetranslate==1.5
+	
