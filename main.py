@@ -1,17 +1,12 @@
 #Либы
 import telebot
-bot = telebot.TeleBot('5672186975:AAFePjVO_1sNGw8m9n8NBjyenNwNFq9s6fM')
+bot = telebot.TeleBot('Bot`s API')
 from yandexfreetranslate import YandexFreeTranslate
 yt = YandexFreeTranslate(api = "ios")
 from langid import classify
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeyboardMarkup
 import os
 from gtts import gTTS
-#---Планы:---
-# 1) Добавить Markdown - сделано
-# 2) Попробывать другие детекторы языка - сделано
-# 3) Ответы на сообщения(bot.reply_to) - сделано
-# 4) Добавить большее кол-во языков для перевода - сделано
 
 #---Словари для сохранения языка и текста синтеза---
 lang_user = {
