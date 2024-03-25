@@ -1,6 +1,6 @@
 #Либы
 import telebot
-bot = telebot.TeleBot('Bot`s API')
+bot = telebot.TeleBot('Bot`s API Token')
 from yandexfreetranslate import YandexFreeTranslate
 yt = YandexFreeTranslate(api = "ios")
 from langid import classify
